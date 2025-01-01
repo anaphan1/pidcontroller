@@ -33,9 +33,8 @@ This package supports two types of the PID controller equation.
 
 The parallel form,
 
-$$
-u(t) = K_p e(t) + K_i \int e(t) dt + K_d \frac{de}{dt}
-$$
+$$u(t) = K_p e(t) + K_i \int e(t) dt + K_d \frac{de}{dt}$$
+
 where...  
 $K_p$, $K_i$, and $K_d$ are all constants,  
 and $K_pe(t)$ is the proportional action,  
@@ -43,9 +42,8 @@ $K_i \int e(t) dt$ is the integral action,
 and $K_d \frac{de}{dt}$ is the derivative action
 
 and the ideal form,
-$$
-u(t) = K_p \bigg(e(t) + \frac{1}{\tau_i} \int e(t) dt + \tau_d \frac{de(t)}{dt}\bigg)
-$$
+
+$$u(t) = K_p \bigg(e(t) + \frac{1}{\tau_i} \int e(t) dt + \tau_d \frac{de(t)}{dt}\bigg)$$
 
 where...  
 $K_p$ is the proportional gain,  
