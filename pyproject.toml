@@ -16,3 +16,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[project.urls]
+Homepage = "https://github.com/anaphan1/pidcontroller"
+Issues = "https://github.com/anaphan1/pidcontroller/issues"
