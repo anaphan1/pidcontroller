@@ -1,5 +1,5 @@
 import unittest
-from pidcontroller import PID
+from simplepidcontroller import PID
 
 class Process:
     def __init__(self, k=1, tau=1):

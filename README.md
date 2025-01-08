@@ -3,7 +3,7 @@
 ## Step 1: Importing
 
 ```python
-from pidcontroller import PID
+from simplepidcontroller import PID
 ```
 
 You have now imported the PID Controller
