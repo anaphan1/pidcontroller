@@ -2,6 +2,11 @@
 
 ## Step 1: Importing
 
+Run this command:
+```
+pip install simplepidcontroller
+```
+and then import it
 ```python
 from simplepidcontroller import PID
 ```
